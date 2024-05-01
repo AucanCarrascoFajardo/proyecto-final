@@ -1,0 +1,46 @@
+.img-logo{
+        width: 50px;
+}
+
+.img-logo-titulo{
+    width: 100px;
+}
+
+.header-nav{
+    padding: 10px;
+    background-color: rgb(244, 255, 162);
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-subnav{
+    padding: 2px;
+    background-color: rgb(131, 181, 79);
+    border: none;
+}
+
+body{
+    margin: 0%;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+.redes a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.redes img{
+    width: 30px;
+}
+
+.boton-busqueda{
+    width: 10px;
+}
