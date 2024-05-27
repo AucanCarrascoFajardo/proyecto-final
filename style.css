@@ -15,7 +15,7 @@ ul{
 }
 
 .fixed-header-top {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(196, 188, 149, 0.765);
     position: fixed;
     top: 0;
     z-index: 999;
