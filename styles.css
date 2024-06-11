@@ -9,7 +9,7 @@ footer {
     background-color: black;
     color: white;
     font-size: clamp(1rem, 1vw, 1.5rem);
-
+    padding: 2rem 0;
 }
 
 h1 {
@@ -166,145 +166,99 @@ li {
     padding: 0.1rem 1rem;
 }
 
-/* Footer */
-.footer-child-01 {
-    width: 50%;
-    padding: 2rem 0;
-}
+/* Body ******************************************** */
 
-/* Body */
-.novedades {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    height: 300px;
-}
-
-.portada-nov-img {
-    display: block;
-    width: 200px;
-    height: 200px;
-    position: relative;
-}
-
-.portada-nov-img img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-}
-
-.portada-nov-info {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    color: #fff;
-    text-align: center;
-    font-size: 1.2em;
-    transition: transform 0.5s;
-    transform: translateY(0);
-    z-index: -1;
-}
-
-.portada-nov-img:hover .portada-nov-info {
-    transform: translateY(100%);
-}
-
-.portada-nov-img:hover {
-    transform: scale(1.1, 1.1);
-    transition: 0.5s;
-}
-
-.titulo-novedades {
-    color: white;
-    /* font-size: 5rem;*/
-    display: flex;
-    justify-content: center;
-    line-height: 2;
-    border-bottom: 3px solid rgb(255, 255, 255);
-}
-
-.container-titulos-novedades {
+/* Novedades*/
+.section-novedades {
     background-color: black;
     width: 100%;
-    height: 30vh;
+    padding: 4rem 0;
 }
 
-.titulo-charts {
-    padding-left: 50px;
-    /*font-size: 5rem;*/
-    display: flex;
-    justify-content: left;
-    line-height: 2;
-    border-bottom: 3px solid black;
+.container-h2-lanzamientos {
+    color: white;
+    text-align: center;
+    font-size: clamp(1.2rem, 5vw, 2rem);
+    margin-bottom: 3rem;
 }
 
-.charts {
-    height: 1000px;
-}
-
-.canciones-charts {
-    height: auto;
-    width: auto;
-    font-size: 40px;
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-.canciones-charts a {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex;
+.novedades ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr));
+    gap: 2rem;
     justify-content: center;
-    align-items: center;
-    color: black;
+}
+
+.novedades ul {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.novedades figure:hover {
+    border: 2px solid red;
+}
+
+figcaption {
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: clamp(0.8rem, 2vw, 1.5rem);
+}
+
+.novedades a {
     text-decoration: none;
-    padding: 10px;
 }
 
-.canciones-charts-info {
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
-    gap: 200px;
-    z-index: -1;
-    border-bottom: 2px solid #00000025;
+/* Charts */
+.section-charts {
+    width: 100%;
+    padding: 4rem 0;
 }
 
-.canciones-charts img {
-    width: 75px;
-    height: 75px;
-    object-fit: cover;
-    margin-right: 20px;
+.section-charts a {
+    text-decoration: none;
+    color: black;
 }
 
-.canciones-charts-numero {
-    margin-right: 20px;
-    z-index: -1;
+.container-h2-charts {
+    color: black;
+    text-align: center;
+    font-size: clamp(1.2rem, 5vw, 2rem);
+    margin-bottom: 3rem;
 }
 
-.canciones-charts :hover {
-    font-size: 105%;
+table {
+    border-collapse: collapse;
+    /* Elimina las lineas divisorias */
+    margin: 0 auto;
+    width: 100%;
 }
 
-.nombre-artista-charts {
-    width: 400px;
+caption,
+td {
+    padding: 1rem;
 }
 
-.nombre-cancion-charts {
-    width: 400px;
+td {
+    border-bottom: thin solid rgba(0, 0, 0, 0.5);
 }
 
-.canciones-charts-info p {
-    display: flex;
-    justify-content: left;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 400px;
+td:first-child {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+caption {
+    text-align: left;
+    background-color: palegreen;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.section-charts img {
+    width: 5vw;
+    min-width: 2rem;
+    border-radius: 15px;
 }
 
 
@@ -320,5 +274,23 @@ li {
 
     .nav-hamburger-dropdown {
         display: block;
+    }
+}
+
+@media screen and (max-width:450px) {
+    td {
+        display: block;
+        padding: 2rem, 1rem;
+        border-bottom: none;
+    }
+
+    td:first-child {
+        font-size: 1.6rem;
+    }
+
+    td::before {
+        content: attr(data-cell) " ";
+        font-weight: 700;
+        text-transform: capitalize;
     }
 }
