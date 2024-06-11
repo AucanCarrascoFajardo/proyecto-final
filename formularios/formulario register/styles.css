@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('fondopalta.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.DivPrincipal{
+    width: 420px;
+    background: #DBEE76;
+    border: 2px solid rgba(160, 141, 97, 0.566);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgb(83, 63, 22);
+}
+
+.DivPrincipal h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.DivPrincipal .CajasDeUsuario{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.CajasDeUsuario input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.505);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.CajasDeUsuario input::placeholder{
+    color: #fff;
+}
+
+.CajasDeUsuario i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 22px;
+}
+
+.DivPrincipal .Condiciones{
+    display: flex;
+    margin: -15px 0 15px;
+}
+
+.Condiciones label input{
+    accent-color: #4e3611;
+    margin-right: 3px;
+
+}
+
+.DivPrincipal .boton{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(189, 193, 83);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(143, 139, 75, 0.849);
+    color: #333;
+    font-weight: 600;
+
+}
+@media (max-width: 750px) {
+    .DivPrincipal{
+        width: 210px;
+        padding: 15px 20px;
+        box-shadow: 0 0 5px rgb(83, 63, 22);
+    }
+    
+    .DivPrincipal h1{
+        font-size: 18px;
+    }
+    
+    .DivPrincipal .CajasDeUsuario{
+        width: 100%;
+        height: 25px;
+        margin: 15px 0;
+    }
+    .CajasDeUsuario input{
+        width: 100%;
+        height: 100%;
+        border: 1px solid rgba(255, 255, 255, 0.505);
+        border-radius: 40px;
+        font-size: 10px;
+        padding: 10px 22.5px 10px 10px;
+    }
+    
+    .CajasDeUsuario i{
+        right: 10px;
+        top: 50%;
+        transform: translateY(-25%);
+        font-size: 10px;
+    }
+    
+    .DivPrincipal .Condiciones{
+        display: flex;
+        margin: -7.5px 0 7.5px;
+    }
+    
+    .Condiciones label input{
+        margin-right: 1.5px;
+    }
+    
+    .DivPrincipal .boton{
+        width: 100%;
+        height: 22.5px;
+        border-radius: 40px;
+        box-shadow: 0 0 5px rgba(143, 139, 75, 0.849);
+        font-weight: 300;
+    }
+    .Condiciones{
+        font-size: 12px;
+    }
+}
