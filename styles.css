@@ -141,7 +141,6 @@ li {
     max-height: 260px;
     left: 50%;
     transform: translateX(-50%);
-    ;
     display: none;
 
 }
@@ -261,6 +260,19 @@ caption {
     border-radius: 15px;
 }
 
+/* FOOTER ******************* */
+
+.footer-section a{
+    text-decoration: none;
+}
+
+.footer-section div {
+    padding: 0.25rem 0;
+}
+
+.footer-section img{
+    padding-right: 0.5rem;
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width:780px) {
