@@ -13,29 +13,31 @@ body{
     background: url('fondopalta.jpg');
     background-size: cover;
     background-position: center;
+    padding: 1rem; /* Añadir un poco de padding para mejorar la vista en pantallas pequeñas */
 }
 
 .DivPrincipal{
-    width: 420px;
+    width: clamp(300px, 80%, 420px); /* Usar clamp para ajustar el tamaño de manera fluida */
     background: #DBEE76;
     border: 2px solid rgba(160, 141, 97, 0.566);
     color: #fff;
     border-radius: 10px;
-    padding: 30px 40px;
+    padding: 2rem; /* Usar rem en lugar de px para hacer el padding relativo al tamaño de fuente */
     box-shadow: 0 0 10px rgb(83, 63, 22);
 }
 
 .DivPrincipal h1{
-    font-size: 36px;
+    font-size: clamp(1.5rem, 2vw + 1rem, 2.25rem); /* Usar clamp para el tamaño de la fuente */
     text-align: center;
 }
 
 .DivPrincipal .CajasDeUsuario{
     position: relative;
     width: 100%;
-    height: 50px;
-    margin: 30px 0;
+    height: 3.125rem; /* Convertir 50px a rem */
+    margin: 2rem 0; /* Convertir 30px a rem */
 }
+
 .CajasDeUsuario input{
     width: 100%;
     height: 100%;
@@ -44,9 +46,9 @@ body{
     outline: none;
     border: 2px solid rgba(255, 255, 255, 0.505);
     border-radius: 40px;
-    font-size: 16px;
+    font-size: 1rem; /* Convertir 16px a rem */
     color: #fff;
-    padding: 20px 45px 20px 20px;
+    padding: 1.25rem 2.8125rem 1.25rem 1.25rem; /* Convertir padding a rem */
 }
 
 .CajasDeUsuario input::placeholder{
@@ -55,26 +57,25 @@ body{
 
 .CajasDeUsuario i{
     position: absolute;
-    right: 20px;
+    right: 1.25rem; /* Convertir 20px a rem */
     top: 50%;
     transform: translateY(-50%);
-    font-size: 22px;
+    font-size: 1.375rem; /* Convertir 22px a rem */
 }
 
 .DivPrincipal .Condiciones{
     display: flex;
-    margin: -15px 0 15px;
+    margin: -1rem 0 1rem; /* Convertir márgenes a rem */
 }
 
 .Condiciones label input{
     accent-color: #4e3611;
-    margin-right: 3px;
-
+    margin-right: 0.1875rem; /* Convertir 3px a rem */
 }
 
 .DivPrincipal .boton{
     width: 100%;
-    height: 45px;
+    height: 2.8125rem; /* Convertir 45px a rem */
     background-color: rgb(189, 193, 83);
     border: none;
     outline: none;
@@ -82,58 +83,5 @@ body{
     box-shadow: 0 0 10px rgba(143, 139, 75, 0.849);
     color: #333;
     font-weight: 600;
-
-}
-
-@media (max-width: 750px) {
-    .DivPrincipal{
-        width: 210px;
-        padding: 15px 20px;
-        box-shadow: 0 0 5px rgb(83, 63, 22);
-    }
-    
-    .DivPrincipal h1{
-        font-size: 18px;
-    }
-    
-    .DivPrincipal .CajasDeUsuario{
-        width: 100%;
-        height: 25px;
-        margin: 15px 0;
-    }
-    .CajasDeUsuario input{
-        width: 100%;
-        height: 100%;
-        border: 1px solid rgba(255, 255, 255, 0.505);
-        border-radius: 40px;
-        font-size: 10px;
-        padding: 10px 22.5px 10px 10px;
-    }
-    
-    .CajasDeUsuario i{
-        right: 10px;
-        top: 50%;
-        transform: translateY(-25%);
-        font-size: 10px;
-    }
-    
-    .DivPrincipal .Condiciones{
-        display: flex;
-        margin: -7.5px 0 7.5px;
-    }
-    
-    .Condiciones label input{
-        margin-right: 1.5px;
-    }
-    
-    .DivPrincipal .boton{
-        width: 100%;
-        height: 22.5px;
-        border-radius: 40px;
-        box-shadow: 0 0 5px rgba(143, 139, 75, 0.849);
-        font-weight: 300;
-    }
-    .Condiciones{
-        font-size: 12px;
-    }
+    font-size: clamp(1rem, 1vw + 0.5rem, 1.125rem); /* Usar clamp para el tamaño de la fuente */
 }
