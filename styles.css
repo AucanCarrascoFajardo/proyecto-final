@@ -167,6 +167,64 @@ li {
 
 /* Body ******************************************** */
 
+/* Noticias */
+.section-noticias {
+    background-color: #f9f9f9;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.container-h2-noticias {
+    color: black;
+    text-align: center;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    margin-bottom: 3rem;
+}
+
+.noticias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+
+.noticias article {
+    background-color: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.noticias article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.noticias article a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.noticias img {
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.noticia-info {
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.noticia-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.noticia-info p {
+    color: #666;
+}
+
+/* ************************************************* */
+
 /* Novedades*/
 .section-novedades {
     background-color: black;
@@ -195,6 +253,8 @@ li {
 
 .novedades figure:hover {
     border: 2px solid red;
+    transform: scale(1.15);
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
 }
 
 figcaption {
@@ -208,6 +268,7 @@ figcaption {
     text-decoration: none;
 }
 
+/* ************************************************* */
 /* Charts */
 .section-charts {
     width: 100%;
@@ -245,6 +306,10 @@ td {
 td:first-child {
     font-weight: 600;
     font-size: 1.8rem;
+}
+
+tr:hover {
+    background-color: aliceblue;
 }
 
 caption {
