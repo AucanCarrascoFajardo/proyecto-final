@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: clamp(1rem, 1vw, 1.5rem);
+    padding: 2rem 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-size: clamp(3rem, 8vw, 6rem);
+}
+
+header {
+    position: fixed;
+    background-color: rgba(70, 10, 236, 0.45);
+    width: 100%;
+    padding: 0rem, 2rem;
+    z-index: 100;
+}
+
+/* Esto hace responsive las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    height: 100vh;
+    background-color: rgb(79, 8, 211);
+    background-image: url(img/hero-image.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    width: 100%;
+    padding: 1.2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+/* Estilos titulo */
+.container-h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 21vh;
+}
+
+.register_button {
+    margin-top: 2.5rem;
+    padding: 1rem 2rem;
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+    background-color: #4c40f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register_button:hover {
+    background-color: #6a4bff;
+}
+
+/* Estilos de Tipografía */
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Estilos Generales (NO TOCAR)*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilo nav y botón hamburguesa */
+.nav-hamburger {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.nav-menu a,
+.logo-lyric a {
+    text-decoration: none;
+    color: white;
+    font-size: clamp(1.2rem, 2vw, 1.6rem);
+    font-weight: bold;
+}
+
+.logo-lyric a {
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+.nav-menu a:hover {
+    background-color: rgba(76, 64, 240);
+    border-radius: 15px;
+    padding: 0.1rem 0.6rem;
+}
+
+.nav-menu ul {
+    display: flex;
+    gap: 2.2rem;
+}
+
+/* DROPDOWN MENU */
+
+.nav-hamburger-dropdown {
+    position: absolute;
+    background-color: rgba(10, 25, 236, 0.40);
+    backdrop-filter: blur(10px);
+    margin-top: 0.8rem;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 500px;
+    max-height: 260px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+
+}
+
+.nav-hamburger-dropdown li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.1rem 1.2rem;
+}
+
+.nav-hamburger-dropdown a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.nav-hamburger-dropdown a:hover {
+    background-color: rgba(76, 64, 240);
+    border-radius: 10px;
+    padding: 0.1rem 1rem;
+}
+
+/* Body ******************************************** */
+
+/* Novedades*/
+.section-novedades {
+    background-color: black;
+    width: 100%;
+    padding: 4rem 0;
+}
+
+.container-h2-lanzamientos {
+    color: white;
+    text-align: center;
+    font-size: clamp(1.2rem, 5vw, 2rem);
+    margin-bottom: 3rem;
+}
+
+.novedades ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr));
+    gap: 2rem;
+    justify-content: center;
+}
+
+.novedades ul {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.novedades figure:hover {
+    border: 2px solid red;
+}
+
+figcaption {
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: clamp(0.8rem, 2vw, 1.5rem);
+}
+
+.novedades a {
+    text-decoration: none;
+}
+
+/* Charts */
+.section-charts {
+    width: 100%;
+    padding: 4rem 0;
+}
+
+.section-charts a {
+    text-decoration: none;
+    color: black;
+}
+
+.container-h2-charts {
+    color: black;
+    text-align: center;
+    font-size: clamp(1.2rem, 5vw, 2rem);
+    margin-bottom: 3rem;
+}
+
+table {
+    border-collapse: collapse;
+    /* Elimina las lineas divisorias */
+    margin: 0 auto;
+    width: 100%;
+}
+
+caption,
+td {
+    padding: 1rem;
+}
+
+td {
+    border-bottom: thin solid rgba(0, 0, 0, 0.5);
+}
+
+td:first-child {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+caption {
+    text-align: left;
+    background-color: palegreen;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.section-charts img {
+    width: 5vw;
+    min-width: 2rem;
+    border-radius: 15px;
+}
+
+/* FOOTER ******************* */
+
+.footer-section a{
+    text-decoration: none;
+}
+
+.footer-section div {
+    padding: 0.25rem 0;
+}
+
+.footer-section img{
+    padding-right: 0.5rem;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width:780px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-hamburger {
+        display: block;
+    }
+
+    .nav-hamburger-dropdown {
+        display: block;
+    }
+}
+
+@media screen and (max-width:450px) {
+    td {
+        display: block;
+        padding: 2rem, 1rem;
+        border-bottom: none;
+    }
+
+    td:first-child {
+        font-size: 1.6rem;
+    }
+
+    td::before {
+        content: attr(data-cell) " ";
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+}
