@@ -36,7 +36,7 @@ img {
 main {
     height: 100vh;
     background-color: rgb(79, 8, 211);
-    background-image: url(img/hero-image.png);
+    background-image: url(../img/hero-image.png);
     background-size: cover;
     background-position: center;
 }
