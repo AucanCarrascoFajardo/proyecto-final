@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #333;
+}
+
+header {
+    background-color: #000;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(10, 25, 236, 0.584);
+    padding: 10px 20px;
+}
+
+.nav-menu a:hover {
+    background-color: rgba(76, 64, 240);
+    border-radius: 15px;
+    padding: 0.1rem 0.6rem;
+}
+
+.nav-menu a,
+
+.nav .logo h1 {
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    font-size: clamp(1.2rem, 2vw, 1.6rem);
+    font-weight: bold;
+    }
+    
+
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 2.2rem;
+}
+
+.nav ul li {
+    margin: 0 10px;
+}
+
+.nav ul li a :hover {
+    background-color: rgba(76, 64, 240);
+    border-radius: 15px;
+    padding: 0.1rem 0.6rem;
+}
+
+.album-header {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.portada-cancion {
+    background-color: #ffc400;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    z-index: 999;
+}
+
+.cancion-info {
+    max-width: 600px;
+    color: white;
+}
+
+.cancion-info h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.cancion-info p {
+    margin: 5px 0;
+}
+
+.letra-seccion{
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.letra-seccion div{
+    margin-left: 25%;
+    width: 50%;
+    font-size: 150%;
+    margin-bottom: 25px;
+}
+
+#letra-cancion{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    height: 150px;
+    background-color: black;
+    color: white;
+    font-size: clamp(1rem, 1vw, 1.5rem);
+    padding: 2rem 0;
+}
+
+.logo-pagina {
+    height: 75px;
+}
