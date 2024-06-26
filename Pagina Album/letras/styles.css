@@ -119,3 +119,15 @@ footer {
 .logo-pagina {
     height: 75px;
 }
+
+#youtube-video {
+    margin-left: 15%;
+}
+
+.titulo-video {
+    font-size: clamp(1rem, 1vw, 1.5rem);
+    display: flex;
+    justify-content: center;
+    font-size: 250%;
+    color: white;
+}

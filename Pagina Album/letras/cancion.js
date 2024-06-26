@@ -13,6 +13,7 @@ if (songId && canciones[songId]) {
     document.getElementById('artista-cancion').textContent = song.artista;
     document.getElementById('year-cancion').textContent = song.year;
     document.getElementById('album-cancion').textContent = song.album;
+    document.getElementById('youtube-video').src = song.youtube;
 
 } else {
     document.getElementById('letra-cancion').textContent = "error";
@@ -20,4 +21,5 @@ if (songId && canciones[songId]) {
     document.getElementById('artista-cancion').textContent = "error";
     document.getElementById('year-cancion').textContent = "error";
     document.getElementById('album-cancion').textContent = "error";
+    document.getElementById('youtube-link').textContent = "Video no disponible";
 }

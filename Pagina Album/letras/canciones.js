@@ -93,6 +93,7 @@ Tuve el valor`
         artista : `Rosalía`,
         album : `El Mal Querer`,
         year : `2018`,
+        youtube : `https://www.youtube.com/embed/Rht7rBHuXW8`,
         letra : `
 Ese cristalito roto
 Yo sentí como crujía
@@ -157,6 +158,7 @@ Malamente`
         artista : `Rosalía`,
         album : `El Mal Querer`,
         year : `2018`,
+        youtube : `https://www.youtube.com/embed/Rht7rBHuXW8`,
         letra : `
 Qué suerte la que yo tuve
 El día que lo encontré
@@ -210,6 +212,7 @@ Con tus ojitos, prima, yo me alumbraré`
         artista : `Rosalía`,
         album : `El Mal Querer`,
         year : `2018`,
+        youtube : `https://www.youtube.com/embed/Rht7rBHuXW8`,
         letra : `
 Me da miedo cuando sales
 Sonriendo pa' la calle
@@ -270,6 +273,7 @@ Los hoyuelitos que te salen`
         artista : `Rosalía`,
         album : `El Mal Querer`,
         year : `2018`,
+        youtube : `https://www.youtube.com/embed/Rht7rBHuXW8`,
         letra : `
 Yo que tanto te camelo
 Y tú me das pie
@@ -288,6 +292,7 @@ Caramelos también tengo`
         artista : `Rosalia`,
         album : `El Mal Querer`,
         year : `2018`,
+        youtube : `https://www.youtube.com/embed/Rht7rBHuXW8`,
         letra : `
 Tiri, tiri, tiri, ay
 Ay, ay ya, ya ya ya ay
@@ -315,6 +320,7 @@ Oh, ay, ay, de la horita que te he conocido`,
         artista : `Rosalia`,
         album : `El Mal Querer`,
         year : `2018`,
+        youtube : `https://www.youtube.com/embed/Rht7rBHuXW8`,
         letra : `
 Bueno, yo por amor, uff
 Bueno, hasta bajé al infierno
@@ -333,6 +339,7 @@ Piensas, ¿Cómo he llegado hasta aquí?`,
         artista : `Rosalia`,
         album : `El Mal Querer`,
         year : `2018`,
+        youtube : `https://www.youtube.com/embed/Rht7rBHuXW8`,
         letra : `
 Y se va a quemar si sigue ahí
 Las llamas van al cielo a morir
@@ -391,6 +398,7 @@ Junta la' palma' y las separa`,
         artista : `Rosalia`,
         album : `El Mal Querer`,
         year : `2018`,
+        youtube : `https://www.youtube.com/embed/Rht7rBHuXW8`,
         letra : `
 Ali, Ali, Ali, Ali, Ali, Ali, Ali, Ali
 Ali, Ali, Ali, Ali, Ali, Ali, Ali
@@ -437,6 +445,7 @@ Ay, Ali, Ali, Ali, Ali, Ali, Ali, Yali ya`,
         artista : `Rosalia`,
         album : `El Mal Querer`,
         year : `2018`,
+        youtube : `https://www.youtube.com/embed/Rht7rBHuXW8`,
         letra : `
 Nana, nana, nana
 Nana, nana, nana
@@ -456,6 +465,7 @@ Nana`,
         artista : `Rosalia`,
         album : `El Mal Querer`,
         year : `2018`,
+        youtube : `https://www.youtube.com/embed/Rht7rBHuXW8`,
         letra : `
 Me han dicho que no hay sali'a
 Por esta calle que voy
@@ -494,6 +504,7 @@ Si el loco vive sin ella`,
         artista : `Rosalia`,
         album : `El Mal Querer`,
         year : `2018`,
+        youtube : `https://www.youtube.com/embed/Rht7rBHuXW8`,
         letra : `
 A ningún hombre consiento
 Que dicte mi sentencia
