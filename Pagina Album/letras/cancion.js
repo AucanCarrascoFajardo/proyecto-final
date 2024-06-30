@@ -3,7 +3,7 @@ function getParameterByName(name) {
     return url.searchParams.get(name);
 } // esto toma los datos en base al ID que se elige en la URL
 
-const songId = getParameterByName('id') || '1'; // crea un ID en base al numero que se muestre en la misma URL
+const songId = getParameterByName('id'); // crea un ID en base al numero que se muestre en la misma URL
 //o toma el primero por defecto
 
 if (songId && canciones[songId]) {

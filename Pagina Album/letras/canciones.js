@@ -1,12 +1,4 @@
 const canciones = {
-    1 : {
-        titulo : `desconocido`,
-        artista : `artista desconocido`,
-        album : `desconocido`,
-        year : `2002`,
-        letra : 
-        `Aqui no hay nada.`,
-    } ,
 
     101: {
         titulo: `RUNNING OUT OF TIME`, 
