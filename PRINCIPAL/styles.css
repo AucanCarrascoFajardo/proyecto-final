@@ -141,8 +141,13 @@ li {
     max-height: 260px;
     left: 50%;
     transform: translateX(-50%);
-    display: none;
+    display: none;   
 
+}
+
+.nav-hamburger-dropdown.show {
+    display: block;
+    /* Muestra el menú cuando tiene la clase show */
 }
 
 .nav-hamburger-dropdown li {
@@ -349,9 +354,6 @@ caption {
         display: block;
     }
 
-    .nav-hamburger-dropdown {
-        display: block;
-    }
 }
 
 @media screen and (max-width:450px) {
