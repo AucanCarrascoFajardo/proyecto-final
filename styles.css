@@ -141,7 +141,7 @@ li {
     max-height: 260px;
     left: 50%;
     transform: translateX(-50%);
-    display: none;   
+    display: none;
 
 }
 
@@ -332,7 +332,7 @@ caption {
 
 /* FOOTER ******************* */
 
-.footer-section a{
+.footer-section a {
     text-decoration: none;
 }
 
@@ -340,7 +340,7 @@ caption {
     padding: 0.25rem 0;
 }
 
-.footer-section img{
+.footer-section img {
     padding-right: 0.5rem;
 }
 
