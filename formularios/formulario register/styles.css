@@ -10,16 +10,14 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('fondopalta.jpg');
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(150deg, #5C3CEC, #7361C3);
     padding: 1rem; /* Añadir un poco de padding para mejorar la vista en pantallas pequeñas */
 }
 
 .DivPrincipal{
     width: clamp(300px, 80%, 420px); /* Usar clamp para ajustar el tamaño de manera fluida */
-    background: #DBEE76;
-    border: 2px solid rgba(160, 141, 97, 0.566);
+    background: #a676ee;
+    border: 2px solid rgba(160, 97, 136, 0.566);
     color: #fff;
     border-radius: 10px;
     padding: 2rem; /* Usar rem en lugar de px para hacer el padding relativo al tamaño de fuente */
@@ -52,7 +50,7 @@ body{
 }
 
 .CajasDeUsuario input::placeholder{
-    color: #fff;
+    color: #ffffff;
 }
 
 .CajasDeUsuario i{
@@ -69,19 +67,17 @@ body{
 }
 
 .Condiciones label input{
-    accent-color: #4e3611;
     margin-right: 0.1875rem; /* Convertir 3px a rem */
 }
 
 .DivPrincipal .boton{
     width: 100%;
     height: 2.8125rem; /* Convertir 45px a rem */
-    background-color: rgb(189, 193, 83);
+    background-color: rgb(144, 83, 193);
     border: none;
-    outline: none;
     border-radius: 40px;
-    box-shadow: 0 0 10px rgba(143, 139, 75, 0.849);
-    color: #333;
+    box-shadow: 0 0 10px rgba(141, 75, 143, 0.849);
+    color: #390959;
     font-weight: 600;
     font-size: clamp(1rem, 1vw + 0.5rem, 1.125rem); /* Usar clamp para el tamaño de la fuente */
 }
